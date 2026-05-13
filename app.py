@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-customers = pd.read_csv("../loan_customers_data.csv")
+customers = pd.read_csv("loan_customers_dataset.csv")
 
 st.title("Loan Portfolio Risk Dashboard")
 
